@@ -1,0 +1,29 @@
+<h2><%= title %></h2>
+
+<h3>Title</h3>
+<p><%= name %></p>
+
+<h3>Released</h3>
+<p><%= released %></p>
+
+<h3>Runtime</h3>
+<p><%= runtime %></p>
+
+<h3>Rating</h3>
+<p><%= rating %></p>
+
+<h3>Categories</h3>
+<ul>
+<% categories.forEach(function(category){ %>
+  <li><%= category %></li>
+<% }) %>
+</ul>
+
+<h3>Recommendations</h3>
+<ul>
+<% recommendations.forEach(function(recommendation){ %>
+  <li><%= recommendation %></li>
+<% }) %>
+</ul>
+
+<a href="/movies">Return to the movies list</a>

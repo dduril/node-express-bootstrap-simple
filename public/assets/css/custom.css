@@ -1,0 +1,12 @@
+/* custom CSS */
+
+.console{
+	margin: 10px 10px 35px 0px;
+	padding: 10px;
+	border: 1px solid black;
+	border-radius: 10px;
+	background-color: black;
+	color: white;
+	font-family: "Courier New";
+	width: 640px;
+}
