@@ -1,7 +1,7 @@
 node-express-bootstrap-simple
 =============================
 
-Basic website project using Node.js, Express, EJS, and Bootstrap.
+Web project using Node.js, Express, EJS, and Bootstrap.
 
 #### Resources
 
